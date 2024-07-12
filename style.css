@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow-y: hidden;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.firstPart {
+  padding: 2rem;
+}
+form {
+  width: 700px;
+  display: block;
+  padding: 2rem;
+  margin-top: -5rem;
+  box-sizing: border-box;
+}
+
+form img{
+  margin-left: 37rem;
+}
+
+.secondPart img {
+  height: 100vh;
+}
+
+h1 {
+  color: #086db8;
+}
+
+.firstRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.secondRow {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 50% 50%;
+}
+
+.InnerRow {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 3.5rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.InnerRow label {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.gendee {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  padding: 0.5rem 3rem;
+  text-align: center;
+  border-radius: 0.2rem;
+  border: 1px solid black;
+  outline: none;
+  margin-top: 0.2rem;
+}
+
+select {
+  padding: 0.5rem 7.5rem;
+  text-align: center;
+  border-radius: 0.2rem;
+  border: 1px solid black;
+  outline: none;
+  margin-top: 0.2rem;
+  display: block;
+}
+
+input[type="email"] {
+  display: block;
+  padding: 0.5rem 3rem;
+  text-align: center;
+  border-radius: 0.2rem;
+  border: 1px solid black;
+  outline: none;
+}
+.textarea {
+  margin-top: .5rem;
+}
+
+.textarea label {
+  font-weight: 700;
+  font-size: 1rem;
+}
+textarea {
+  width: 100%;
+  height: 59px;
+}
+
+.firstRow label {
+  font-weight: 700;
+  font-size: 1rem;
+}
+.secondInput {
+  margin-top: -1rem;
+}
+
+.male {
+  margin-top: 0.5rem;
+}
+
+.innerPart {
+  margin-top: -1rem;
+}
+
+.innerInnerPart {
+  margin-top: 1rem;
+}
+
+button {
+  margin-left: 29.8rem;
+  border: none;
+  color: #fff;
+  background: #3E53C3;
+  margin-top: 1rem;
+  padding: .5rem 2rem;
+  border-radius: 10px 0px 10px 0px;
+}

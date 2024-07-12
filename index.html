@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Developed my Taiwo Akerele as an intern in KodeCamp"
+    />
+    <title>Interactive sign up page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="firstPart">
+          <form>
+            <img src="./images/logo.svg" alt="KodeCamp logo" />
+            <h1>Sign Up</h1>
+            <div class="firstRow">
+              <div>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" />
+              </div>
+              <div>
+                <label for="lname">Last name</label>
+                <input type="text" id="lname" />
+              </div>
+            </div>
+            <div class="InnerRow">
+              <div class="secondInput">
+                <label class="label" for="email">Email</label>
+                <input type="email" id="email" />
+              </div>
+              <div class="innerPart">
+                <label for="gender" class="gendee">Gender</label>
+                <div class="innerInnerPart">
+                  <input type="radio" name="gender" id="gender" />
+                  <span>
+                    <label for="male">Male</label>
+                  </span>
+                  <span>
+                    <input type="radio" name="gender" id="female" />
+                    <label for="female">Female</label>
+                  </span>
+                  <input type="radio" name="gender" id="other" />
+                  <label for="other">Other</label>
+                </div>
+              </div>
+            </div>
+            <div class="firstRow">
+              <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" />
+              </div>
+              <div>
+                <label for="cpassword">Confirm Password</label>
+                <input type="password" id="cpassword" />
+              </div>
+            </div>
+            <div class="firstRow">
+              <div>
+                <label for="education">Educational level</label>
+                <select id="education">
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+              </div>
+              <div>
+                <label for="experience">Experience Level</label>
+                <select id="experience">
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+              </div>
+            </div>
+            <div class="textarea">
+              <label for="about">Tell us about you</label>
+              <textarea id="about"></textarea>
+            </div>
+            <button>Create Account</button>
+          </form>
+        </div>
+        <div class="secondPart">
+          <img src="./images/illustration.svg" alt="illustration" />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
